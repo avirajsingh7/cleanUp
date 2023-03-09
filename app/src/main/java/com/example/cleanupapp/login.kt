@@ -19,6 +19,7 @@ class login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        firebaseAuth = FirebaseAuth.getInstance()
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -34,6 +35,7 @@ class login : AppCompatActivity() {
                 firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener{
                     if(it.isSuccessful){
                          startActivity(Intent(this,dashboard_activity::class.java))
+                         finish()
                     }
                     else{
                         Toast.makeText(this,it.exception.toString(), Toast.LENGTH_SHORT).show()
