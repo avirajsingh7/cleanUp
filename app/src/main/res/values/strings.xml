@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CleanUp App</string>
+    <string name="title_activity_join_movement">join_movement</string>
+    <string name="join_movement">Join Movement</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="restoring_nature">Restoring Nature</string>
+    <string name="title_activity_login">login</string>
+    <string name="dummy_button">Dummy Button</string>
+</resources>
