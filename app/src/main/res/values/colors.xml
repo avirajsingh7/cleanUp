@@ -14,4 +14,6 @@
     <color name="black_overlay">#66000000</color>
     <color name="primary_color">#7C789B</color>
     <color name="back_primary_color">#B7B7DA</color>
+    <color name="orange">#FDC2A4</color>
+    <color name="dark_orange">#F69A6B</color>
 </resources>

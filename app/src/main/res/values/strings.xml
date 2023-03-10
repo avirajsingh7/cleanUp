@@ -6,4 +6,7 @@
     <string name="restoring_nature">Restoring Nature</string>
     <string name="title_activity_login">login</string>
     <string name="dummy_button">Dummy Button</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
 </resources>
