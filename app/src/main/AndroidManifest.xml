@@ -12,8 +12,11 @@
         android:theme="@style/Theme.CleanUpApp"
         tools:targetApi="31">
         <activity
+            android:name=".landing_page"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,8 +43,7 @@
             android:theme="@style/Theme.CleanUpApp.Fullscreen" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

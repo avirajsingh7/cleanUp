@@ -17,4 +17,7 @@
     <color name="orange">#FDC2A4</color>
     <color name="dark_orange">#F69A6B</color>
     <color name="bg_tint">#64000000</color>
+    <color name="light_yellow">#f7eee0</color>
+    <color name="brown">#5b3b34</color>
+    <color name="bluish_green">#5499a2</color>
 </resources>
